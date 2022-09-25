@@ -33,3 +33,5 @@ nlia.cache
 nra.cache
 
 _opam
+builddep
+Makefile.coq*
