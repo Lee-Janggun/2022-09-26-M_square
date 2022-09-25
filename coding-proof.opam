@@ -1,0 +1,15 @@
+opam-version: "2.0"
+name: "coding-proof"
+synopsis: "Code presentation for 'Coding Proof' seminar"
+description: """"""
+license: "BSD"
+
+maintainer: ["Janggun Lee <janggun.lee@kaist.ac.kr>"]
+authors: ["Janggun Lee"]
+
+depends: [
+  "coq-stdpp" { (= "1.8.0") }
+]
+
+build: [make "-j%{jobs}%" ]
+install: [make "install"]
