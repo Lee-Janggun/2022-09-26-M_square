@@ -1,5 +1,4 @@
-From stdpp Require Import base.
-From Coq.micromega Require Import Lia.
+From stdpp Require Import base numbers.
 
 Lemma nat_add_0 (n : nat) :
  	n + 0 = n.
